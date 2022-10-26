@@ -1,0 +1,666 @@
+/*-------------- Definições gerais -----------------*/
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------- Header -----------------*/
+.box_header{
+    background-color:#2E948A;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo_header{
+    padding: 10px 30px;
+    width: 50px;
+}
+
+.name_logo_header{
+    font-weight: 500;
+    font-size: 56px;
+}
+
+.main_menu_header{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+/*-------------- Footer -----------------*/
+.footer_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    background-color:#2E948A;
+}
+
+.footer_name h1{
+    font-weight: 500;
+    font-size: 66px;
+    padding-left: 10px;
+}
+
+.footer_box_logo{
+    display: flex;
+}
+
+.footer_name p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.footer_menu{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button_footer{
+    background: #419488;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+
+.footer_button_link{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*-------------- Conteudo da pagina inicial -----------------*/
+
+/*-------------- Sessao 1 -----------------*/
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 h3{
+    font-weight: 700px;
+    font-size: 35px;
+    color: #ff4081;
+    padding: 15px;
+}
+
+.section1 p{
+    font-weight: 400;
+    font-size: 25px;
+    color: #555555;
+    width: 310px;
+    padding: 15px;
+}
+
+.section1 button{
+    border: 2px solid #FF4081;
+    background-color: #FFFFFF;
+    border-radius:  62px;
+    margin: 15px;
+    padding: 5px;
+    width: 150px;
+}
+
+.section1 a{
+    color: #FF4081;
+    text-decoration: none;
+}
+
+.section1 img{
+    padding: 50px 100px 50px 0px;
+}
+
+.text_section1{
+    padding-left: 100px;
+}
+
+
+/*-------------- Sessao 2 -----------------*/
+
+.section2{
+    background-color: #F6F6F6;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.section2 h4{
+    padding: 10px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF4081;
+}
+
+.section2 p{
+    padding: 10px 0px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+
+.section2 button{
+    border: 0px;
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+}
+
+.section2 a{
+    text-decoration: none;
+}
+
+.item_section2{
+    width: 300px;
+}
+
+/*-------------- Sessao 3 -----------------*/
+
+.section3{
+    padding: 80px;
+}
+
+.section3 h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #009688;
+    text-align: center;
+}
+
+.box_comment_section3{
+    display: flex;
+    justify-content: center;
+}
+
+.comment_section3{
+    display: flex;
+    margin: 20px;
+}
+
+.img_comment_section3{
+    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 80px;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.comment_section3 p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    padding: 15px;
+    width: 350px;
+}
+
+/*-------------- Sessao 4 -----------------*/
+
+.section4{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.section4 h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #009688;
+    padding: 50px;
+}
+
+.more_section4{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.more_section4 h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #009688;
+    padding: 10px 0px;
+}
+
+.more_section4 p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    width: 300px;
+}
+
+.section4 button{
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #F6F6F6;
+    padding: 5px;
+    width: 200px;
+    margin: 30px;
+}
+
+.section4 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #FF4081;
+}
+
+/*-------------- Conteudo da pagina contato -----------------*/
+
+.contact_form{
+    margin-left: 15px;
+}
+
+.contact_form textarea{
+    border: 1px solid #686868;
+    border-radius: 7px;
+    color: #58555D;
+    min-width: 400px;
+    min-height: 150px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.contact_form input{
+    border: 1px solid #686868;
+    border-radius: 7px;
+    color: #58555D;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.contact_form button{
+    margin-left: 0px;
+    background: #FF4081;
+    border-radius: 50px;
+}
+
+.contact_form a{
+    color: #FFFFFF;
+}
+
+/*-------------- Conteudo da pagina blog -----------------*/
+
+.section_blog{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.section_blog h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff4081;
+    padding: 10px 0px;
+}
+
+.section_blog p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    width: 400px;
+    text-align: justify;
+}
+
+.section_blog img{
+    width: 400px;
+    height: 200px;
+}
+
+/*-------------- Conteudo da pagina post -----------------*/
+
+.post{
+    text-align: center;
+}
+
+.post_box{
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.post h3{
+    font-weight: 700px;
+    font-size: 35px;
+    color: #ff4081;
+    padding: 15px;
+}
+
+.post h2{
+    font-size: 20px;
+    color: #419488;
+    text-align: left;
+    padding: 20px;
+}
+
+.post p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px;
+    text-align: justify;
+}
+
+.post img{
+    padding: 50px 0px;
+}
+
+.date_post{
+    color: #9D9D9D;
+    font-size: 15px;
+}
+
+/*-------------- Conteúdo da Página de Cursos -----------------*/
+
+/*Título*/
+
+.Title_Courses {
+    padding: 69px;
+    size: 60px;
+    font-weight: 69px;
+}
+
+.Title_Courses h1 {
+    color: #FF4081;
+    font-size: 60px;
+}
+
+.Title_Courses p {
+    color: #555555;
+    font-size: 20px
+}
+
+/*Imagem - Titulo e Parágrafo da Sessao 1*/
+
+.section1_Courses {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.xadrez {
+    padding: 0% 5.8%;
+}
+
+.section1_text h2 {
+
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+    height: 15%;
+}
+
+.section1_text p {
+    padding: 15px 0px;
+    font-weight: 300px;
+    font-size: 18px;
+    height: 30%;
+    color: #000000;
+}
+
+button {
+    min-width: 233px;
+    min-height: 51px;
+    background-color: #419488;
+    border: none;
+    cursor: pointer;
+    border-radius: 62px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+/*Separação entre a section 1 e section 2*/
+
+.hr1 {
+    padding: 82px 114px;
+}
+
+hr {
+    border-top: 4px solid #c4c4c4;
+}
+
+/*Imagem - Título e Parágrafo da Sessao 2*/
+
+.section2_Courses {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.moneytree {
+    padding: 0% 5%;
+}
+
+.section2_Courses h2 {
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+
+}
+
+.section2_text p {
+    padding: 15px 0px;
+    font-weight: 300px;
+    font-size: 18px;
+    height: 105px;
+    color: #000000;
+}
+
+button {
+    min-width: 233px;
+    min-height: 51px;
+    background-color: #419488;
+    border: none;
+    cursor: pointer;
+    border-radius: 62px;
+}
+
+/*Separação entre a section 2 e section 3*/
+
+.hr2 {
+    padding: 82px 114px;
+}
+
+hr {
+    border-top: 4px solid #c4c4c4;
+}
+
+/*Imagem - Título e Parágrafo da Sessao 3*/
+
+.section3_Courses {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.champ {
+    padding: 0% 5%;
+}
+
+.section3_Courses h2 {
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section3_text p {
+    padding: 15px 0px;
+    font-weight: 300px;
+    font-size: 18px;
+    height: 105px;
+    color: #000000;
+}
+
+button {
+    min-width: 233px;
+    min-height: 51px;
+    background-color: #419488;
+    border: none;
+    cursor: pointer;
+    border-radius: 62px;
+}
+
+/*Conteúdo da Página Curso*/
+
+.section1_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section1_main h1 {
+    padding: 15px 0px 10px 200px;
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section1_main p {
+    padding: 15px 0px 50px 200px;
+    font-weight: 300px;
+    width: 431px;
+    font-size: 18px;
+    height: 200px;
+    color: #000000;
+    text-align: justify;
+}
+
+.section1_main img {
+    padding: 50px 300px 50px 0px;
+}
+
+/*Sessão 1 do Conteúdo*/
+
+.hr1 {
+    padding: 82px 114px;
+}
+
+.section1_curso {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 55px 0px 50px 200px;
+
+}
+
+
+.section1_curso h2 {
+
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section1_curso p {
+    width: 431px;
+    font-size: 18px;
+    height: 200px;
+    color: #000000;
+}
+
+/*Sessão 2 do Conteúdo*/
+
+.hr2 {
+    padding: 82px 114px;
+}
+
+.section2_curso {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 55px 0px 50px 200px;
+
+}
+
+
+.section2_curso h2 {
+
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section2_curso p {
+    width: 431px;
+    font-size: 18px;
+    height: 200px;
+    color: #000000;
+}
+
+/*Sessão 3 do Conteúdo*/
+
+.section3_curso {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 55px 0px 50px 200px;
+
+}
+
+
+.section3_curso h2 {
+
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section3_curso p {
+    width: 431px;
+    font-size: 18px;
+    height: 200px;
+    color: #000000;
+}
+
+/*Media Query - Responsividade*/
+
+@media screen and (max-width:800px) {
+
+    /*-------------- Conteudo mobile da pagina inicial (Sessao 1) -----------------*/
+    .section1 {
+        display: inline;
+        text-align: center;
+    }
+
+    .section1 h3 {
+        margin-top: 20px;
+        font-weight: 700px;
+        font-size: 35px;
+    }
+
+    .section1 p {
+        margin: auto;
+    }
+
+    .section1 img {
+        padding: 20px 0px;
+        width: 300px;
+    }
+
+    .text_section1 {
+        padding-left: 0px;
+    }
+}
+/*-------------- Conteudo mobile da pagina inicial (Sessao 2) -----------------*/
